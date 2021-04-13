@@ -1,0 +1,37 @@
+.boardComments {
+    margin: 20px;
+    display: flex;
+    border-bottom: 1px solid #eff2f5;
+    padding: 15px;
+    align-items: center;
+}
+
+.boardComments__name {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.boardComments__delete {
+    margin-left: auto;
+    padding: 9px 18px;
+    background-color: #eff2f5;
+    border-radius: 5px;
+}
+
+.boardComments__update {
+    margin-left: 8px;
+    padding: 9px 18px;
+    background-color: #eff2f5;
+    border-radius: 5px;
+}
+
+.boardComment__input {
+    width: 500px;
+    outline-width: 0;
+    border: none;
+    padding: 8px 20px;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: #eff2f5;
+}

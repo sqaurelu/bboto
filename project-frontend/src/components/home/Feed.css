@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+body {
+    /* background-color: bisque; */
+    text-align: center;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.feed {
+    /* flex: 1;
+    padding: 30px 150px; */
+    font-family: 'Gothic A1', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.feed__post {
+    padding-bottom: 100px;
+}

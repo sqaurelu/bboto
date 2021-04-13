@@ -1,0 +1,31 @@
+.filter>h1 {
+    margin-top: 100px;
+}
+
+.filter__cities_1,
+.filter__cities_2 {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.filter__city {
+    all: inherit;
+}
+
+.filter__city>div {
+    margin: 30px 10px;
+    font-weight: 700;
+    font-size: x-large;
+    background-color: #332BDD;
+    padding: 30px 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+.filter__city>div:hover {
+    background-color: white;
+    color: #332BDD;
+    border: 2px solid #868e96;
+}

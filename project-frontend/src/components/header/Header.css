@@ -1,0 +1,56 @@
+button {
+    all: unset;
+}
+
+.header {
+    background-color: white;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.header__item {
+    text-align: center;
+    padding: 10px;
+    display: table-cell;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+
+/* .header {
+    background-color: white;
+    display: flex;
+    width: 100%;
+}
+
+.header__item {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+} */
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header__item {
+    font-family: 'yg-jalnan', '나눔고딕', 'NamumGothic';
+}
+
+/* .header__item:hover {
+    background: #364fc7;
+    color: white;
+} */
+
+.header__item.item--active {
+    background: #332BDD;
+    color: white;
+    border-radius: 15px;
+    border-bottom: 5px solid #332BDD;
+}
